@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz 1 </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<style>
+
+.name{
+        width: 100%;
+        margin-bottom: 8px;
+        text-align: center;
+        color: #ffff;
+        background-color: rgb(240, 95, 95);
+        border: 1px solid #000;
+        border-radius: 2em;
+    }
+
+    .heading{
+        width: 100%;
+        color: #ffff;
+        text-align: center;
+        background-color: rgb(240, 95, 95);
+        border: 1px solid #000;
+        border-radius: 2em;
+    }
+
+    .firstquation,.secondquation,.Thirdquation,.Fouthquation,.Fifthquation,.Sixthquation,.Seventhquation,.Eighthquation{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid rgb(240, 95, 95);
+        border-radius:1em;
+    }
+
+
+    .set{
+        margin-right: 5px;
+    }
+
+    .Next{
+        text-align: center;
+        border: none;
+    }
+
+    .btn:hover {
+        background-color: #555;
+    }
+
+    #myBtn {
+  position: fixed;
+  bottom: 20px; 
+  right: 30px;
+  border: none;
+  outline: none; 
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 1em;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+<body>
+
+    <br />
+
+    <div>
+        <div class="name">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1> DEVELOPER NAME : MUHAMMAD YAHIYA ASIF</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1> APP NAME : QUIZ APPLICATION </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <div class="firstquation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <br />
+                            <h4> <b> <i> Q1: </i> </b> Which is the Odd one ? </h4>
+                            <label class="set"> <h6> a) </h6> </label>
+                             <input name="Q1" id="q1-a1" type="radio"> 3 , 5 </input>  <br>
+                             <label class="set"> <h6> b) </h6> </label> 
+                            <input name="Q1" id="q1-a2" type="radio"> 4 , 2 </input> <br>
+                            <label class="set"> <h6> c) </h6> </label>
+                            <input name="Q1" id="q1-a3" type="radio"> 8 , 10 </input> <br>
+                            <label class="set"> <h6> d) </h6> </label>
+                            <input name="Q1" id="q1-a4" type="radio"> 2 , 18 </input>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="secondquation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <br />
+                            <h4> <b> <i> Q2: </i> </b> Which one is the correct answer of 2 * 5 ? </h4>
+                            <label class="set"> <h6> a) </h6> </label>
+                            <input name="Q2" id="q2-a1" type="radio"> 6 </input> <br>
+                            <label class="set"> <h6> b) </h6> </label>
+                            <input name="Q2" id="q2-a2" type="radio"> 10 </input> <br>
+                            <label class="set"> <h6> c) </h6> </label>
+                            <input name="Q2" id="q2-a3" type="radio"> 15 </input> <br>
+                            <label class="set"> <h6> d) </h6> </label>
+                            <input name="Q2" id="q2-a4" type="radio"> none </input>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+             
+
+             <div class="Thirdquation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <br />
+                            <h4> <b> <i> Q3: </i> </b> Which one is the correct answer of 5 + 5 ? </h4>
+                            <label class="set"> <h6> a) </h6> </label>
+                            <input name="Q3" id="q3-a1" type="radio"> 12 </input> <br>
+                            <label class="set"> <h6> b) </h6> </label>
+                            <input name="Q3" id="q3-a2" type="radio"> 15 </input> <br>
+                            <label class="set"> <h6> c) </h6> </label>
+                            <input name="Q3" id="q3-a3" type="radio"> 1 </input> <br>
+                            <label class="set"> <h6> d) </h6> </label>
+                            <input name="Q3" id="q3-a4" type="radio"> 10 </input>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+             
+
+             <div class="Fouthquation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <br />
+                            <h4> <b> <i> Q4: </i> </b> Which one is the correct answer of 80 * 2 ? </h4>
+                            <label class="set"> <h6> a) </h6> </label>
+                            <input name="Q4" id="q4-a1" type="radio"> 117 </input> <br>
+                            <label class="set"> <h6> b) </h6> </label>
+                            <input name="Q4" id="q4-a2" type="radio"> 200 </input> <br>
+                            <label class="set"> <h6> c) </h6> </label>
+                            <input name="Q4" id="q4-a3" type="radio"> 160    </input> <br>
+                            <label class="set"> <h6> d) </h6> </label>
+                            <input name="Q4" id="q4-a4" type="radio"> 260 </input>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+                          
+
+             <div class="Fifthquation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <br /> 
+                            <h4> <b> <i> Q5: </i> </b> Which one is the correct answer of 50 - 22  ? </h4>
+                            <label class="set"> <h6> a) </h6> </label>
+                            <input name="Q5" id="q5-a1" type="radio"> 28 </input> <br>
+                            <label class="set"> <h6> b) </h6> </label>
+                            <input name="Q5" id="q5-a2" type="radio"> 27 </input> <br>
+                            <label class="set"> <h6> c) </h6> </label>
+                            <input name="Q5" id="q5-a3" type="radio"> 25 </input> <br>
+                            <label class="set"> <h6> d) </h6> </label>
+                            <input name="Q5" id="q5-a4" type="radio"> 22 </input>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+                          
+
+             <div class="Sixthquation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <fieldset>
+                            <br />
+                            <h4> <b> <i> Q6: </i> </b> Which one is the correct answer of 5 / 2 ? </h4>
+                            <label class="set"> <h6> a) </h6> </label>
+                            <input name="Q6" id="q6-a1" type="radio"> 0 </input> <br>
+                            <label class="set"> <h6> b) </h6> </label>
+                            <input name="Q6" id="q6-a2" type="radio"> 5 </input> <br>
+                            <label class="set"> <h6> c) </h6> </label>
+                            <input name="Q6" id="q6-a3" type="radio"> 2 </input> <br>
+                            <label class="set"> <h6> d) </h6> </label>
+                            <input name="Q6" id="q6-a4" type="radio"> none </input>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+                          
+
+            
+             <div class="Next">
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <button type="button" class="btn btn-danger"  onclick="check()">  next  </button>
+                        <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-danger" onclick="topFunction()" id="myBtn" title="Go to top">Go To TOP </button>
+                    </div>
+                </div>
+             </div>
+
+
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
